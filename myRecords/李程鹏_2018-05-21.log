@@ -1,0 +1,10 @@
+# 李程鹏_2018-05-21.log
+
+1 对于python来讲，*args与**kargs是一种通常的允许任意多参数的一种形式：
+	a. *args是作为把所有的参数作为一个tuple
+	b. **kargs则是把所有的参数作为一个dict
+
+2 对于每个handler中的方法，get（）方法处理对应的http get请求，post方法处理对应的http post请求。get_argument（）方法则用于接受传递的参数，write方法用于写http响应
+
+
+3对于RequestHandler中的get_argument()方法，一般需要指定默认值，如果没有指定，又没有找到这个参数，可能会报出MissingArgumentError的错误
